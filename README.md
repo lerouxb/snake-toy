@@ -31,8 +31,8 @@ How to
 
 Open up snake_test.scad, render it with F6, save to STL, slice that STL in your
 favourite slicer and print. Make sure the pins fit in the holes. Not too tight,
-not too loose, but just right. If not, open up variables and adjust clearance
-accordingly, then retry until you get it right.
+not too loose, but just right. If not, open up variables.scad and adjust
+clearance accordingly, then retry until you get it right.
 
 Once you're happy it fits, render snake_pin, snake_middle, snake_end_a and
 snake_end_b as STLs. You only need one of each end and you need lots of pins

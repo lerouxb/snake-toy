@@ -18,13 +18,13 @@ plastic.
 Included files
 ---
 
-**variables.scad** contains all the settings. You should only have to modify the clearance setting and maybe wallWidth, but that's untested.
-**triangles.scad** is a copy of a library by Tim Koopman used by snake_part.scad
-**snake_test.scad** is for testing the clearance. Print this and make sure they fit together
-**snake_pin.scad** is for the pins that stick the triangular parts together
-**snake_part.scad** is for making the three types of triangular blocks
-**snake_middle.scad** is for all the middle blocks. You want lots of it.
-**snake_end_a.scad** and **snake_end_b.scad** are for the end caps. You only need 1 of each.
+* **variables.scad** contains all the settings. You should only have to modify the clearance setting and maybe wallWidth, but that's untested.
+* **triangles.scad** is a copy of a library by Tim Koopman used by snake_part.scad
+* **snake_test.scad** is for testing the clearance. Print this and make sure they fit together
+* **snake_pin.scad** is for the pins that stick the triangular parts together
+* **snake_part.scad** is for making the three types of triangular blocks
+* **snake_middle.scad** is for all the middle blocks. You want lots of it.
+* **snake_end_a.scad** and **snake_end_b.scad** are for the end caps. You only need 1 of each.
 
 How to
 ---

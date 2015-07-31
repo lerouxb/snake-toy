@@ -3,7 +3,7 @@ $fn = 100;
 wallWidth = 1.2;
 
 // This gets added to the hole sizes
-clearance = 0.3;
+clearance = 0.25;
 
 // main part only
 cubeSize = 18;
@@ -11,7 +11,6 @@ chamfer = 2;
 grip = 2;
 
 // these are just calculations for convenience
-//totalHeight = narrowHeight+wideHeight*2 + 3*clearance;
 gripOffsetFar = cubeSize/5*4;
 gripOffsetClose = cubeSize/5;
 outsideWidth = cubeSize - 2*chamfer;
@@ -33,5 +32,5 @@ pinLength = 2*wallWidth + 2*pinDiameter; // up to the ends of the dots
 attachLength = 2*wallWidth;
 testCubeSize = pinDiameter + 2*wallWidth; // sphere plus walls
 
-sphereSize = holeWidth+wallWidth+clearance;
+sphereSize = pinDiameter+clearance;
 cylinderSize = sphereSize/2+wallWidth;
